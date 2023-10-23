@@ -1,6 +1,6 @@
 # Awesome Security Hub [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Security Hub tools, integrations and resources
+> A curated list of awesome AWS Security Hub tools, integrations and resources
 
 ## Contents
 
