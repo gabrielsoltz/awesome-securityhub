@@ -40,6 +40,7 @@
 - [aws-security-hub-controls-cli](https://github.com/aws-samples/aws-security-hub-controls-cli) - A CLI tool to disable and enable security standards controls in AWS Security Hub. It is designed to work together with AWS Security Hub Cross-Account Controls Disabler.
 - [aws-security-hub-automatic-suppression-rules](https://github.com/aws-samples/aws-security-hub-automatic-suppression-rules) - This project is for SecurityHub auto supression of findings using the batch_update_findings API call.
 - [terraform-aws-mcaf-securityhub-findings-manager](https://github.com/schubergphilis/terraform-aws-mcaf-securityhub-findings-manager) - Terraform module to suppress specific events from security hub based on a dynamodb based configuration.
+- [terraform-aws-tardigrade-security-hub](https://github.com/plus3it/terraform-aws-tardigrade-security-hub) - Terraform module to enable and configure SecurityHub. The module supports independent accounts with the top-level module, and the cross-account invite/accept workflow with the modules/cross-account-member module.
 
 ## Integrations
 
@@ -52,9 +53,13 @@
 - [aws-systemsmanager-patchcompliance-to-securityhub](https://github.com/aws-samples/aws-systemsmanager-patchcompliance-to-securityhub) - Reporting AWS Systems Manager patch compliance data to AWS Security Hub for multiple accounts under AWS Organizations
 - [aws-security-hub-prowler-integrations](https://github.com/aws-samples/aws-security-hub-prowler-integrations) - Use AWS Fargate and Prowler to send AWS Service security configuration findings to Security Hub
 - [aws-securityhub-jira-software-integration](https://github.com/aws-samples/aws-securityhub-jira-software-integration) - This solution supports a bidirectional integration between Security Hub and JIRA. Issues can be either created automatically or manually by using custom actions.
+- [Security-Hub-Custom-Provider-Demo](https://github.com/iann0036/Security-Hub-Custom-Provider-Demo) - This project shows you how you can integrate with AWS Security Hub to provide your own custom findings. In this example, we periodically check the Troy Hunt's Have I Been Pwned API and report findings whenever a breach is added.
+- [custom-securityhub-findings](https://github.com/YogitaDSurve/custom-securityhub-findings) - Custom Security Hub Findings is a repository that allows AWS users to import custom findings into Security Hub using AWS Lambda and get email notifications.
+- [SecurityHub_to_AWSChatBot](https://raw.githubusercontent.com/aws-samples/aws-securityhub-to-slack/master/SecurityHub_to_AWSChatBot.yml) - Deploys CustomAction in SecurityHub to enable sending findings to Slack via AWS Chatbot
 
 ## Remediations
 
+- (automated-security-response-on-aws)[https://github.com/aws-solutions/automated-security-response-on-aws] - Automated Security Response on AWS is an add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
 - [security-hub-macie-remediation](https://github.com/aws-samples/security-hub-macie-remediation) - Macie Remediation using Security Hub Custom Actions
 - [aws-security-hub-response-and-remediation](https://github.com/aws-samples/aws-security-hub-response-and-remediation) - Pre-configured response & remediation playbooks for AWS Security Hub
 
