@@ -59,7 +59,7 @@
 
 ## Remediations
 
-- (automated-security-response-on-aws)[https://github.com/aws-solutions/automated-security-response-on-aws] - Automated Security Response on AWS is an add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
+- [automated-security-response-on-aws](https://github.com/aws-solutions/automated-security-response-on-aws) - Automated Security Response on AWS is an add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
 - [security-hub-macie-remediation](https://github.com/aws-samples/security-hub-macie-remediation) - Macie Remediation using Security Hub Custom Actions
 - [aws-security-hub-response-and-remediation](https://github.com/aws-samples/aws-security-hub-response-and-remediation) - Pre-configured response & remediation playbooks for AWS Security Hub
 
